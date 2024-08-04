@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2227E955-8D8F-4029-80AB-5A8F2D8E979D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{08E8641C-0C1F-42DD-B480-1663B7911C39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaret.Catalog", "Services\Catalog\ETicaret.Catalog\ETicaret.Catalog.csproj", "{4269E57E-D93B-496F-A4B8-125EA7F49E42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4269E57E-D93B-496F-A4B8-125EA7F49E42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4269E57E-D93B-496F-A4B8-125EA7F49E42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4269E57E-D93B-496F-A4B8-125EA7F49E42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4269E57E-D93B-496F-A4B8-125EA7F49E42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08E8641C-0C1F-42DD-B480-1663B7911C39} = {2227E955-8D8F-4029-80AB-5A8F2D8E979D}
+		{4269E57E-D93B-496F-A4B8-125EA7F49E42} = {08E8641C-0C1F-42DD-B480-1663B7911C39}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A20C5F85-368A-43A1-8957-FB84EFED6115}
+	EndGlobalSection
+EndGlobal
