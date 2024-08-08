@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using ETicaret.Catalog.Dtos.ProductDetailDtos;
-using ETicaret.Catalog.Dtos.ProductDetailDtos;
+
 using ETicaret.Catalog.Dtos.ProductDtos;
 using ETicaret.Catalog.Entities;
 using ETicaret.Catalog.Services.ProductDetailServices;
