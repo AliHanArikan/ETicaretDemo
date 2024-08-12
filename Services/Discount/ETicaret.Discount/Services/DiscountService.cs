@@ -70,6 +70,8 @@ namespace ETicaret.Discount.Services
             parameters.Add("@rate", updateCouponDto.Rate);
             parameters.Add("@isActive", updateCouponDto.IsActive);
             parameters.Add("@validDate", updateCouponDto.ValidDate);
+            parameters.Add("@couponId", updateCouponDto.CouponId    );
+
 
             using(var connection = _dapperContext.CreateConnection())
             {
