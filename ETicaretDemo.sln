@@ -21,13 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{32AD014F-8083-4E48-A6A1-DA1A8FABC434}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaret.Order.Domain", "Services\Order\Core\ETicaret.Order.Domain\ETicaret.Order.Domain.csproj", "{6C149437-2102-410B-B6EC-55AB2AAF77B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETicaret.Order.Domain", "Services\Order\Core\ETicaret.Order.Domain\ETicaret.Order.Domain.csproj", "{6C149437-2102-410B-B6EC-55AB2AAF77B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaret.Order.Application", "Services\Order\Core\ETicaret.Order.Application\ETicaret.Order.Application.csproj", "{6000D952-1AB3-4DC7-9684-6D3A838F3CF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETicaret.Order.Application", "Services\Order\Core\ETicaret.Order.Application\ETicaret.Order.Application.csproj", "{6000D952-1AB3-4DC7-9684-6D3A838F3CF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaret.Order.Persistence", "Services\Order\Infrastructure\ETicaret.Order.Persistence\ETicaret.Order.Persistence.csproj", "{87CEF3AE-DDA6-4C87-A447-0D2DA827BDAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETicaret.Order.Persistence", "Services\Order\Infrastructure\ETicaret.Order.Persistence\ETicaret.Order.Persistence.csproj", "{87CEF3AE-DDA6-4C87-A447-0D2DA827BDAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETicaret.Order.WebApi", "Services\Order\Presentation\ETicaret.Order.WebApi\ETicaret.Order.WebApi.csproj", "{13CF8A72-394D-4B70-872E-99C2ACCF67B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETicaret.Order.WebApi", "Services\Order\Presentation\ETicaret.Order.WebApi\ETicaret.Order.WebApi.csproj", "{13CF8A72-394D-4B70-872E-99C2ACCF67B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
